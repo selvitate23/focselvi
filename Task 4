@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Final Project Not</h2>
+<p> Here is an example of a not logic gate.</p>
+
+
+<button onclick="document.getElementById('not_gate').src='on.png'">ON</button>
+
+<img id="not_gate" src="not_gate" style="width:300px">
+
+<button onclick="document.getElementById(not_gate').src='not_gate'">OFF</button>
+
+</body>
+</html> 

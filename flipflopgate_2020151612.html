@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FoC</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+</head>
+<body>
+
+<header style="background-color:darkkhaki;">
+  <h2><b>Fundamentals of Computing</b></h2>
+</header>
+
+<section>
+  <nav style="background-color:white;">
+    <ul>
+      <li><h5><a href="index.html">Course</a></h5></li>
+      <li><h5><a href="project_2020151612.html">Project</a></h5></li>
+	  <li><h5><a href="concepts_2020151612.html">Concepts</a></h5></li>
+	  <li><h5><a href="database_2020151612.html">Databases</a></h5></li>
+	  <li><h5><a href="documentation_2020151612.html">Documentation</a></h5></li>
+      <li><h5><a href="aboutme_2020151612.html">Dev Team</a></h5></li>
+    </ul>
+  </nav>
+  
+  <article>
+  <h2 style="font-family:Times New Roman; text-align:center;">Flip-flop Circuits</h2>
+
+<div class="row">
+  <div class="column" style="background-color:khaki;">
+    <h2 style="font-family:jokerman;>Input A:</h2>
+    <h2 style="font-family:jokerman;">Input A:</h2>
+    <p>
+       <button onclick="document.getElementById('myImage').src='onoffflipflopgate.PNG'">On</button> <button onclick="document.getElementById('myImage').src='offoffflipflopgates.png'">Off</button>
+    </p>	
+  </div>
+  <div class="column" style="background-color:darkkhaki;">
+    <h2 style="font-family:jokerman;>Input B:</h2>
+    <h2 style="font-family:jokerman;">Input B:</h2>
+    <p>	
+       <button onclick="document.getElementById('myImage').src='offonflipflopgate.PNG'">On</button> <button onclick="document.getElementById('myImage').src='flipflopoffoffoff.png'">Off</button> 	
+    </p>
+  </div>
+</div>
+	  
+	  
+	<p>
+	
+	  <center> <img id="myImage" src="flipflopoffoffoff.png" style="width:400px"> </center>
+	</p>
+	
+
+</article>
+</section>
+<h5 style="font-family:Times New Roman;"><a href="project_2020151612.html">Back</a></h5>
+
+<footer style="background-color:darkkhaki;">
+  <p>@ Powered by UB</p>
+</footer>
+
+</body>
+</html>
